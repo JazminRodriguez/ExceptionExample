@@ -1,4 +1,4 @@
-public class Main
+public class MainStudentList
 {
     public static void main(String[] args)
     {
@@ -6,5 +6,7 @@ public class Main
         StudentList studentList = new StudentList(names);
         studentList.RemoveStudents(10);
         studentList.Display();
+
+
     }
 }
