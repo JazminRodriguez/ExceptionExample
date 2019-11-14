@@ -28,6 +28,10 @@ public class StudentList
 
     public void RemoveStudents(int indexStudent)
     {
-        students.remove(indexStudent);
+        try {
+            students.remove(indexStudent);
+        }catch (IndexOutOfBoundsException e){
+            System.out.println("Invalid index student");
+        }
     }
 }

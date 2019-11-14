@@ -4,6 +4,7 @@ public class Main
     {
         String[] names = {"Katia", "Mariana", "Fer", "Daniela"};
         StudentList studentList = new StudentList(names);
+        studentList.RemoveStudents(10);
         studentList.Display();
     }
 }
