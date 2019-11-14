@@ -30,7 +30,7 @@ public class StudentList
     {
         try {
             students.remove(indexStudent);
-        }catch (IndexOutOfBoundsException e){
+        }catch (IndexOutOfBoundsException e) {
             System.out.println("Invalid index student");
         }
     }
